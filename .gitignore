@@ -11,7 +11,7 @@ class BinaryHeap:
     def __init__(self):
         self.heap = []
     
-    def insert(self, key):
+    def insert(self, key): 
         self.heap.append(key)
         self._heapify_up(len(self.heap) - 1)
     
